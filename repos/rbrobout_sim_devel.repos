@@ -15,6 +15,10 @@ repositories:
     type: git
     url: https://github.com/RobotnikAutomation/robotnik_sensors.git
     version: melodic-master
+  src/rbrobout_sim:
+    type: git
+    url: https://github.com/RobotnikAutomation/rbrobout_sim.git
+    version: noetic-devel
   src/fmauch_universal_robot:
     type: git
     url: https://github.com/fmauch/universal_robot.git
