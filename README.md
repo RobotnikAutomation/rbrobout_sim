@@ -37,7 +37,7 @@ For the latest version:
 
 ```bash
 vcs import --input \
-  https://raw.githubusercontent.com/RobotnikAutomation/rbrobout_sim/melodic-devel/repos/rbrobout_sim_devel.repos
+  https://raw.githubusercontent.com/RobotnikAutomation/rbrobout_sim/noetic-devel/repos/rbrobout_sim_devel.repos
 rosdep install --from-paths src --ignore-src --skip-keys="rbrobout_robot_control marker_mapping robotnik_locator robotnik_pose_filter" -y
 ```
 <!--
