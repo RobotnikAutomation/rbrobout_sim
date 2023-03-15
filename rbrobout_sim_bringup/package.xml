@@ -1,0 +1,22 @@
+<package>
+  <name>rbrobout_sim_bringup</name>
+  <version>1.1.3</version>
+  <description>
+		Launch files for RB-Robout simulation.
+	</description>
+
+  <license>BSD</license>
+
+  <author email="avillena@robotnik.es">Álvaro Villena</author>
+  <maintainer email="avillena@robotnik.es">Álvaro Villena</maintainer>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslaunch</build_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>rbrobout_control</run_depend>
+  <run_depend>rbrobout_description</run_depend>
+  <run_depend>rbrobout_pad</run_depend>
+
+</package>
