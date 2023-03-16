@@ -72,19 +72,6 @@ sudo apt-get install python-catkin-tools
 roslaunch rbrobout_sim_bringup rbrobout_complete.launch
 ```
 
-#### RB-Robout with Trossen Arm
-
-```bash
-roslaunch rbrobout_sim_bringup rbrobout_complete.launch default_xacro:=rbrobout_tix_std.urdf.xacro launch_arm_a:=true arm_manufacturer_a:=trossen arm_model_a:=vx300s
-```
-
-Launch moveit to plan trajectories:
-
-```bash
-ROS_NAMESPACE=robot roslaunch rbrobout_vx300s_moveit_config demo.launch
-```
-
-
 #### RB-Robout with Kinova Arm
 
 ```bash
@@ -92,12 +79,6 @@ roslaunch rbrobout_sim_bringup rbrobout_complete.launch default_xacro:=rbrobout_
 ```
 
 **Note:** in this configuration the robot has not laser, therefore the amcl is turned off. When Rviz is opened, change robot_map to robot_odom in ```fixed_frame```  in order to visualize the robot.
-
-#### or RB-Robout Steel:
-
-```bash
-roslaunch rbrobout_sim_bringup rbrobouts_complete.launch
-```
 
 #### Optional general arguments:
 
