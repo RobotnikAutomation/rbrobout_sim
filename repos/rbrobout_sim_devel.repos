@@ -6,7 +6,7 @@ repositories:
   src/rbrobout_common:
     type: git
     url: https://github.com/RobotnikAutomation/rbrobout_common.git
-    version: noetic-devel
+    version: melodic-devel
   src/robotnik_msgs:
     type: git
     url: https://github.com/RobotnikAutomation/robotnik_msgs.git
@@ -18,7 +18,7 @@ repositories:
   src/rbrobout_sim:
     type: git
     url: https://github.com/RobotnikAutomation/rbrobout_sim.git
-    version: noetic-devel
+    version: melodic-devel
   src/fmauch_universal_robot:
     type: git
     url: https://github.com/fmauch/universal_robot.git
