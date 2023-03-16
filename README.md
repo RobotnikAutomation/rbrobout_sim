@@ -70,7 +70,7 @@ sudo apt-get install python-catkin-tools
 
 ```bash
 roslaunch rbrobout_sim_bringup rbrobout_complete.launch
-```.
+```
 
 #### Optional general arguments:
 
