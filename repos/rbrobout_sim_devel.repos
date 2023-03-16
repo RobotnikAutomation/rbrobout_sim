@@ -14,7 +14,7 @@ repositories:
   src/robotnik_sensors:
     type: git
     url: https://github.com/RobotnikAutomation/robotnik_sensors.git
-    version: melodic-master
+    version: melodic-devel
   src/rbrobout_sim:
     type: git
     url: https://github.com/RobotnikAutomation/rbrobout_sim.git
