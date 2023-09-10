@@ -96,13 +96,14 @@
 
         <!-- start rbrobout_pad nodes -->
         <include if="$(arg launch_pad)" file="$(find robotnik_pad)/launch/robotnik_pad.launch">
-        <arg name="pad_model" value="$(arg pad_model)"/>
+        <arg name="pad_model" value="ps4"/>
         </include>
 
-        <!-- base_hw_sim -->
+        <!-- base_hw_sim 
         <include if="$(arg launch_base_hw_sim)" file="$(find robotnik_base_hw_sim)/launch/rbrobout_hw_sim.launch">
             <arg name="prefix" value="$(arg prefix)"/>
         </include>
+        -->
 
         <group if="$(arg launch_battery_estimator)">
             <!-- start dock_manager node -->
